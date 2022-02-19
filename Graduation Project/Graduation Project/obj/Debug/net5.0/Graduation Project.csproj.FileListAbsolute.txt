@@ -1,0 +1,28 @@
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\appsettings.Development.json
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\appsettings.json
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Graduation Project.exe
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Graduation Project.deps.json
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Graduation Project.runtimeconfig.json
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Graduation Project.runtimeconfig.dev.json
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Graduation Project.dll
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\ref\Graduation Project.dll
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Graduation Project.pdb
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.csproj.AssemblyReference.cache
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.AssemblyInfoInputs.cache
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.AssemblyInfo.cs
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.csproj.CoreCompileInputs.cache
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.MvcApplicationPartsAssemblyInfo.cs
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.MvcApplicationPartsAssemblyInfo.cache
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\scopedcss\bundle\Graduation Project.styles.css
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\staticwebassets\Graduation Project.StaticWebAssets.Manifest.cache
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.RazorTargetAssemblyInfo.cache
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.csproj.CopyComplete
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.dll
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\ref\Graduation Project.dll
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.pdb
+E:\ITI\Graduation Project\Graduation Project\Graduation Project\obj\Debug\net5.0\Graduation Project.genruntimeconfig.cache

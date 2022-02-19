@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4debd10d-444f-4967-b7b4-b8486d57c3bd": {
+      "ProjectGuid": "4debd10d-444f-4967-b7b4-b8486d57c3bd",
+      "DisplayName": "GraduationProject.Api",
+      "ColorIndex": 0
+    },
+    "36707ee9-75fc-4919-9015-a03ecb8ba1df": {
+      "ProjectGuid": "36707ee9-75fc-4919-9015-a03ecb8ba1df",
+      "DisplayName": "Graduation_Project.core",
+      "ColorIndex": 1
+    },
+    "de1f8864-a694-453e-a419-3ced6ef40939": {
+      "ProjectGuid": "de1f8864-a694-453e-a419-3ced6ef40939",
+      "DisplayName": "Graduation_Project.EF",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
