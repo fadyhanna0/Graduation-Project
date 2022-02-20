@@ -1,7 +1,7 @@
 
 using Graduation_Project.core.Interfaces;
 using Graduation_Project.core.Models;
-using Graduation_Project.core.Services;
+
 using Graduation_Project.EF;
 using Graduation_Project.EF.Repositories;
 using Graduation_Project.Helpers;
@@ -15,10 +15,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 
@@ -47,14 +49,30 @@ namespace Graduation_Project
                 Options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; 
                 Options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 
-            });
+            })
+                .AddJwtBearer(O=>
+                {
+                    O.RequireHttpsMetadata = false;
+                    O.SaveToken = false;
+                    O.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidIssuer = Configuration["JWT:Issuer"],
+                        ValidAudience = Configuration["JWT:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Key"]))
+                    };
+                });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Graduation_Project", Version = "v1" });
             });
-            services.AddScoped<IUnitOfWork,UnitOfWork>();
+            //services.AddScoped<IUnitOfWork,UnitOfWork>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,7 +86,7 @@ namespace Graduation_Project
             }
 
             app.UseRouting();
-            app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

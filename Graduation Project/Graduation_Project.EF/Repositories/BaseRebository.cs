@@ -16,7 +16,7 @@ namespace Graduation_Project.EF.Repositories
         {
             _context = context;
         }
-        public T GetById(int id)=> _context.Set<T>().Find(id);
+       public T GetById(int id)=> _context.Set<T>().Find(id);
         public IEnumerable<T> GetAll()=>  _context.Set<T>().ToList();
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter, string[] includes = null)
            {
