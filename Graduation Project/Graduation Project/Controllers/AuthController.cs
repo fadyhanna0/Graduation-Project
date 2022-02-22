@@ -48,7 +48,7 @@ namespace Graduation_Project.Controllers
             return Ok(result);
             
         }
-        [Authorize]
+       // [Authorize]
         [HttpPost("addrole")]
         
         public async Task<IActionResult> AddRoleAsync([FromBody] AddRoleModel model)
