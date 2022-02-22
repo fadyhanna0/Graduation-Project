@@ -22,3 +22,15 @@ D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduati
 D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.dll
 D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\ref\Graduation_Project.core.dll
 D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.pdb
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.deps.json
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.dll
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\ref\Graduation_Project.core.dll
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.pdb
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.csproj.AssemblyReference.cache
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.AssemblyInfoInputs.cache
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.AssemblyInfo.cs
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.csproj.CoreCompileInputs.cache
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.dll
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\ref\Graduation_Project.core.dll
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.pdb

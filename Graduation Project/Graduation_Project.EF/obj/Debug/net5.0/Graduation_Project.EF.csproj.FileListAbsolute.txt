@@ -34,3 +34,21 @@ D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduati
 D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\ref\Graduation_Project.EF.dll
 D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.pdb
 D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.genruntimeconfig.cache
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.deps.json
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.json
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.dev.json
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.dll
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\ref\Graduation_Project.EF.dll
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.pdb
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.core.dll
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.core.pdb
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.AssemblyReference.cache
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.AssemblyInfoInputs.cache
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.AssemblyInfo.cs
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.CoreCompileInputs.cache
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.CopyComplete
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.dll
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\ref\Graduation_Project.EF.dll
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.pdb
+C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.genruntimeconfig.cache
