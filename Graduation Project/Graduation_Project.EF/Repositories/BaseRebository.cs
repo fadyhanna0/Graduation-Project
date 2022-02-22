@@ -35,6 +35,14 @@ namespace Graduation_Project.EF.Repositories
                     query = query.Include(item);
             return query.FirstOrDefault(filter);
         }
+        public IQueryable<T> Find(string[] includes = null)
+        {
+            IQueryable<T> query = _context.Set<T>();
+            if (includes != null)
+                foreach (var item in includes)
+                    query = query.Include(item);
+            return query;
+        }
         //Add method
         public T Add(T entity)
         {

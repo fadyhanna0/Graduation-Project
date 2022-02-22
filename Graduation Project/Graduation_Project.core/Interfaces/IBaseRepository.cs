@@ -14,10 +14,12 @@ namespace Graduation_Project.core.Interfaces
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter, string[] includes = null);
 
         public T Find(Expression<Func<T, bool>> filter, string[] includes = null);
+        public IQueryable<T> Find(string[] includes = null);
         public T Add(T entity);
         public T Update(T entity);
         public void Delete(T entity);
         public IEnumerable<T> AddRange(IEnumerable<T> entities);
+
         public int Count();
 
 

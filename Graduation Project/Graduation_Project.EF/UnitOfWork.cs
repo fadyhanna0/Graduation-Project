@@ -18,6 +18,9 @@ namespace Graduation_Project.EF
         private readonly AppDbContext _Context;
 
         public IBaseRepository<Products> Products { get; private set; }
+        public IBaseRepository<Category> Category { get; private set; }
+
+
         public IAuthorizeService AuthModel { get; private set; }
 
         //IBaseRepository<AuthModel> IUnitOfWork.AuthModel => throw new NotImplementedException();

@@ -10,6 +10,8 @@ namespace Graduation_Project.core.Interfaces
     public interface IUnitOfWork
     {
         public IBaseRepository<Products> Products { get; }
+        public IBaseRepository<Category> Category { get; }
+
         public IAuthorizeService AuthModel { get; }
         int Complete();
     }
