@@ -41,7 +41,7 @@ namespace Graduation_Project
             services.Configure<Jwt>(Configuration.GetSection("Jwt"));
             services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>();
             services.AddScoped<AuhorizeService, AuhorizeService>();
-           
+            services.AddCors();
             services.AddDbContext<AppDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
                 x=>x.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)));
             services.AddAuthentication(Options =>
@@ -86,6 +86,7 @@ namespace Graduation_Project
             }
 
             app.UseRouting();
+            app.UseCors(x=>x.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
             app.UseAuthentication();
 
             app.UseAuthorization();
