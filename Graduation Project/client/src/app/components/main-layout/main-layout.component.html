@@ -1,4 +1,4 @@
-<app-nav-bar></app-nav-bar>
+<!-- <app-nav-bar></app-nav-bar>
 
 <div class="container">
   <div class="row">
@@ -8,4 +8,17 @@
   </div>
 </div>
 
+<app-footer></app-footer> -->
+<div class="container-fluid ps-0">
+  <section class="row">
+    <app-side-bar class="col-2"></app-side-bar>
+    <!-- <app-product-list class="col-10"></app-product-list> -->
+    <!-- <app-order-master class="col-10"></app-order-master> -->
+    <div class="col-10">
+      <router-outlet></router-outlet>
+    </div>
+
+    <!-- <app-home class="col-10"></app-home> -->
+  </section>
+</div>
 <app-footer></app-footer>
