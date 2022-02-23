@@ -9,7 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MainLayoutComponent } from './components/main-layout/main-layout.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './components/Login-Register/login/login.component';
+
 import { RegisterComponent } from './components/Login-Register/register/register.component';
 import { OrderMasterComponent } from './components/Order/order-master/order-master.component';
 import { ProductItemComponent } from './components/product-item/product-item.component';
@@ -20,6 +20,7 @@ import { CurrencyPipe } from './Pipes/currency.pipe';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { CommonModule } from '@angular/common';
     MainLayoutComponent,
     NotFoundComponent,
     HomeComponent,
-    LoginComponent,
+
     RegisterComponent,
     OrderMasterComponent,
     ProductItemComponent,
@@ -37,7 +38,7 @@ import { CommonModule } from '@angular/common';
     ProductsDirecrtivesDirective,
     CurrencyPipe,
     NavBarComponent,
-    
+    ContactsComponent,
   ],
   imports: [
     CommonModule,
@@ -46,11 +47,7 @@ import { CommonModule } from '@angular/common';
     BrowserAnimationsModule,
     HttpClientModule,
   ],
-  exports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule
-  ],
+  exports: [CommonModule, FormsModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
