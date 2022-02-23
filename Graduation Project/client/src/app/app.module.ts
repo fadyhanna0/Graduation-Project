@@ -15,9 +15,6 @@ import { OrderMasterComponent } from './components/Order/order-master/order-mast
 import { ProductItemComponent } from './components/product-item/product-item.component';
 import { ProductListComponent } from './components/Order/product-list/product-list.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-
-
 
 @NgModule({
   declarations: [
@@ -32,8 +29,6 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     ProductItemComponent,
     ProductListComponent,
     SideBarComponent,
-    NavBarComponent
-   
   ],
   imports: [
     BrowserModule,
