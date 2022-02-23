@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CoreModule } from './core/core.module';
+
 import { ShopModule } from './shop/shop.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainLayoutComponent } from './components/main-layout/main-layout.component';
@@ -16,7 +16,7 @@ import { UsersComponent } from './components/loginAndRigister/users/users.compon
 import { HomeComponent } from './components/home/home.component';
 import { ProductListComponent } from './components/Order/product-list/product-list.component';
 import { OrderMasterComponent } from './components/Order/OrderMaster/order-master/order-master.component';
-import { ProductDetailsComponent } from './components/Order/productDetails/product-details/product-details.component';
+import { ProductDetailsComponent } from './components/Order/order-master/order-master/order-master.component';
 import { ProdutDetailsComponent } from './components/Order/produt-details/produt-details.component';
 import { LoginComponent } from './components/loginAndRigister/login/login.component';
 import { RegisterComponent } from './components/loginAndRigister/register/register.component';
@@ -38,6 +38,7 @@ import { RegisterComponent } from './components/loginAndRigister/register/regist
     ProdutDetailsComponent,
     LoginComponent,
     RegisterComponent,
+    ordermaster,
   ],
   imports: [
     BrowserModule,
@@ -45,7 +46,7 @@ import { RegisterComponent } from './components/loginAndRigister/register/regist
     BrowserAnimationsModule,
     HttpClientModule,
     //import core module which nav-bar lives in
-    CoreModule,
+
     //import shop module which products lives in
     ShopModule,
   ],
