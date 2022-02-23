@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 //import { pathToFileURL } from 'url';
 import { HomeComponent } from './components/home/home.component';
 // import { LoginComponent } from './components/loginAndRigister/login/login.component';
