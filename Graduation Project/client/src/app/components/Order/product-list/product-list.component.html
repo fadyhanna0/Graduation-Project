@@ -1,1 +1,46 @@
-<p>product-list works!</p>
+<div
+  class="card shadow-sm"
+  style="margin-top: 100px"
+  *ngFor="let item of preoductListOfCat"
+>
+  <img src="{{ img }}" alt="" />
+  <div class="card-body">
+    <p class="card-text">
+      {{ item.description }}
+    </p>
+    <div class="d-flex justify-content-between align-items-center">
+      <p>{{ item.price }}</p>
+      <div class="btn-group">
+        <button type="button" class="btn btn-sm btn-outline-secondary">
+          View
+        </button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">
+          Edit
+        </button>
+      </div>
+      <small class="text-muted">9 mins</small>
+    </div>
+  </div>
+</div>
+
+<!-- <table style="margin-top: 150px">
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>name</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let item of preoductListOfCat">
+      <td>
+        {{ item.Description }}
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table> -->
+<!-- <ul style="margin-top: 150px" *ngFor="let item of preoductListOfCat">
+  <li>{{ item.price }}</li>
+  <li>{{ item.description }}</li>
+</ul> -->

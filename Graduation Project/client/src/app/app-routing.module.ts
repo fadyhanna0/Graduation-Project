@@ -8,7 +8,7 @@ import { ContactsComponent } from './components/contacts/contacts.component';
 import { LoginComponent } from './components/Login-Register/login/login.component';
 import { registerLocaleData } from '@angular/common';
 import { RegisterComponent } from './components/Login-Register/register/register.component';
-import { ResetPasswordComponent } from './components/login-Register/reset-password/reset-password.component';
+// import { ResetPasswordComponent } from './components/login-Register/reset-password/reset-password.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ProductListComponent } from './components/Order/product-list/product-list.component';
 import { ProductDetailsComponent } from './components/Order/product-details/product-details.component';
@@ -24,6 +24,7 @@ const routes: Routes = [
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
+      { path: 'products', component: ProductListComponent },
       { path: 'product/:pid', component: ProductDetailsComponent },
       { path: 'contacts', component: ContactsComponent },
       { path: 'shop', component: ShopComponent },
@@ -31,7 +32,7 @@ const routes: Routes = [
   },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'resetpass', component: ResetPasswordComponent },
+  // { path: 'resetpass', component: ResetPasswordComponent },
   { path: '**', component: NotFoundComponent },
   // { path: 'Login', component: LoginComponent },
   // { path: 'Rigester', component: RegisterComponent },

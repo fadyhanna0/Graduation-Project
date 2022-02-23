@@ -1,6 +1,6 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { catchError, Observable, retry, throwError } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { IProduct } from 'src/models/iproduct';
 
@@ -8,8 +8,15 @@ import { IProduct } from 'src/models/iproduct';
   providedIn: 'root',
 })
 export class ProductsService {
-  //httpOption
-  constructor(private httpClient: HttpClient) {}
+  httpOption;
+  constructor(private httpClient: HttpClient) {
+    this.httpOption = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+        Authorization: 'my auth token',
+      }),
+    };
+  }
 
   getAllProducts(): Observable<IProduct[]> {
     // return this.httpClient.get<IProduct[]>(`${environment.APIURL}/products`);
