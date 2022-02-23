@@ -17,6 +17,9 @@ import { ProductListComponent } from './components/Order/product-list/product-li
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { ProductsDirecrtivesDirective } from './Directives/products-direcrtives.directive';
 import { CurrencyPipe } from './Pipes/currency.pipe';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -33,12 +36,20 @@ import { CurrencyPipe } from './Pipes/currency.pipe';
     SideBarComponent,
     ProductsDirecrtivesDirective,
     CurrencyPipe,
+    NavBarComponent,
+    
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+  ],
+  exports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
