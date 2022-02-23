@@ -15,6 +15,8 @@ import { OrderMasterComponent } from './components/Order/order-master/order-mast
 import { ProductItemComponent } from './components/product-item/product-item.component';
 import { ProductListComponent } from './components/Order/product-list/product-list.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { ProductsDirecrtivesDirective } from './Directives/products-direcrtives.directive';
+import { CurrencyPipe } from './Pipes/currency.pipe';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     ProductItemComponent,
     ProductListComponent,
     SideBarComponent,
+    ProductsDirecrtivesDirective,
+    CurrencyPipe,
   ],
   imports: [
     BrowserModule,
