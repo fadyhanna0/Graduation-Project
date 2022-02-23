@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+<<<<<<< HEAD
 import { ContactsComponent } from './components/contacts/contacts.component';
+=======
+import { FormsModule } from '@angular/forms';
+>>>>>>> db94bbd41dde036714d66a45823ef76ed5dd074a
 //import { pathToFileURL } from 'url';
 import { HomeComponent } from './components/home/home.component';
 import { ShopComponent } from './shop/shop.component';

@@ -20,7 +20,11 @@ import { CurrencyPipe } from './Pipes/currency.pipe';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+<<<<<<< HEAD
 import { ContactsComponent } from './components/contacts/contacts.component';
+=======
+import { ResetPasswordComponent } from './components/login-Register/reset-password/reset-password.component';
+>>>>>>> db94bbd41dde036714d66a45823ef76ed5dd074a
 
 @NgModule({
   declarations: [
@@ -38,7 +42,12 @@ import { ContactsComponent } from './components/contacts/contacts.component';
     ProductsDirecrtivesDirective,
     CurrencyPipe,
     NavBarComponent,
+<<<<<<< HEAD
     ContactsComponent,
+=======
+    ResetPasswordComponent,
+
+>>>>>>> db94bbd41dde036714d66a45823ef76ed5dd074a
   ],
   imports: [
     CommonModule,
@@ -46,6 +55,8 @@ import { ContactsComponent } from './components/contacts/contacts.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    FormsModule
+
   ],
   exports: [CommonModule, FormsModule, ReactiveFormsModule],
   providers: [],
