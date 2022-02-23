@@ -12,7 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 
 import { RegisterComponent } from './components/Login-Register/register/register.component';
 import { OrderMasterComponent } from './components/Order/order-master/order-master.component';
-import { ProductItemComponent } from './components/product-item/product-item.component';
+
 import { ProductListComponent } from './components/Order/product-list/product-list.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { ProductsDirecrtivesDirective } from './Directives/products-direcrtives.directive';
@@ -20,7 +20,7 @@ import { CurrencyPipe } from './Pipes/currency.pipe';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { ResetPasswordComponent } from './components/login-Register/reset-password/reset-password.component';
+import { ResetPasswordComponent } from './components/Login-Register/reset-password/reset-password.component';
 import { LoginComponent } from './components/Login-Register/login/login.component';
 
 @NgModule({
@@ -34,13 +34,12 @@ import { LoginComponent } from './components/Login-Register/login/login.componen
 
     RegisterComponent,
     OrderMasterComponent,
-    ProductItemComponent,
+    ResetPasswordComponent,
     ProductListComponent,
     SideBarComponent,
     ProductsDirecrtivesDirective,
     CurrencyPipe,
     NavBarComponent,
-    ResetPasswordComponent,
   ],
   imports: [
     CommonModule,
