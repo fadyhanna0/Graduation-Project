@@ -17,13 +17,7 @@ namespace Graduation_Project.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        //this method retun all Categories
-        [HttpGet(template: "{Categories}")]
-        public List<Category> GeCategories()
-        {
-            List<Category> categories = _unitOfWork.Category.GetAll().ToList();
-            return categories;
-        }
+       
         [HttpGet]
         public IActionResult GetFoodList()
         {
@@ -31,6 +25,63 @@ namespace Graduation_Project.Controllers
             var list = _unitOfWork.Products.Find(includes:new[] {"Category"}).ToList();
           
             return Ok(list);
+        }
+        //this method to add product
+        [HttpPost]
+        public IActionResult Addproduct(Products products)
+        {
+                _unitOfWork.Products.Add(products);
+                _unitOfWork.Complete();
+                return Ok(products);
+            
+        }
+        //this method to add some products
+        [HttpPost(template: "Addsomeproducts")]
+        public IActionResult Addsomeproducts(List<Products> products)
+        {
+            _unitOfWork.Products.AddRange(products);
+            _unitOfWork.Complete();
+            return Ok(products);
+
+        }
+        /////Edit product
+        [HttpGet]
+        [Route("Editproducts/{id}")]
+        public IActionResult Editproduct(int id)
+        {
+            Products products = _unitOfWork.Products.GetById(id);
+            return Ok(products);
+        }
+        [HttpPut(template:"{id}")]
+
+        public IActionResult Editproduct(int id, [FromBody] Products products)
+        {
+            if (products.Id == id)
+            {
+                Products product = _unitOfWork.Products.GetById(id);
+                if (product == null)
+                {
+                    return NotFound("No Product Found");
+                }
+                product.Name = products.Name;
+                product.Description = products.Description;
+                product.Category_Id = products.Category_Id;
+                product.Price = products.Price;
+                product.Image=products.Image;
+               // _unitOfWork.Products.Update(products);
+                _unitOfWork.Complete();
+                return Ok();
+            }
+            else
+                return NotFound("No  Found");
+        }
+        [HttpDelete]
+        public IActionResult DeleteFood(int id)
+        {
+            Products product = _unitOfWork.Products.GetById(id);
+            _unitOfWork.Products.Delete(product);
+            _unitOfWork.Complete();
+            return Ok();
         }
 
 

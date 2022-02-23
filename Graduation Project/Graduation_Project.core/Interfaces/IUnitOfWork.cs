@@ -11,6 +11,10 @@ namespace Graduation_Project.core.Interfaces
     {
         public IBaseRepository<Products> Products { get; }
         public IBaseRepository<Category> Category { get; }
+        public IBaseRepository<Order> Order { get; }
+        public IBaseRepository<OrderItem> OrderItem { get;  }
+        public IBaseRepository<Payment> Payment { get; }
+
 
         public IAuthorizeService AuthModel { get; }
         int Complete();

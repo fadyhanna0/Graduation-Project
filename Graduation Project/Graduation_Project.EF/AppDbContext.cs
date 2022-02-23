@@ -19,10 +19,14 @@ namespace Graduation_Project.EF
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Payment> Payments { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<OrderItem>().HasKey(nameof(OrderItem.Order_Id), nameof(OrderItem.Food_Id));
+            modelBuilder.Entity<OrderItem>().HasKey(nameof(OrderItem.Order_Id), nameof(OrderItem.Product_Id));
 
             base.OnModelCreating(modelBuilder);
 

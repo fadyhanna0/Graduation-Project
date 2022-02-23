@@ -11,8 +11,8 @@ namespace Graduation_Project.core.Models
     {
         [ForeignKey("Order")]
         public int Order_Id { get; set; }
-        [ForeignKey("Food")]
-        public int Food_Id { get; set; }
+        [ForeignKey("Products")]
+        public int Product_Id { get; set; }
         public int quantity { get; set; }
         [Column(TypeName = "money")]
 

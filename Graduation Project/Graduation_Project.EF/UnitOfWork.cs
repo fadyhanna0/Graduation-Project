@@ -19,6 +19,11 @@ namespace Graduation_Project.EF
 
         public IBaseRepository<Products> Products { get; private set; }
         public IBaseRepository<Category> Category { get; private set; }
+        public IBaseRepository<Order> Order { get; private set; }
+        public IBaseRepository<OrderItem> OrderItem { get; private set; }
+        public IBaseRepository<Payment> Payment { get; private set; }
+
+
 
 
         public IAuthorizeService AuthModel { get; private set; }
