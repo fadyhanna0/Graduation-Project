@@ -57,7 +57,7 @@ namespace Graduation_Project.Controllers
         {
             var CustomerId = User.Claims.FirstOrDefault(x=>x.Type.Equals("uid"));
             decimal TotalPrice = 0;
-         //   string CustomerId = "98d6bb72-10e7-490a-bad7-ba537f8f034f"/*Request.Cookies["CustomerId"].ToString();*/;
+         // //  string CustomerId = "98d6bb72-10e7-490a-bad7-ba537f8f034f"/*Request.Cookies["CustomerId"].ToString();*/;
             var OldOrder = _unitOfWork.Order.Find(s => s.Customer_Id == CustomerId.Value.ToString() && s.Accepted == false);
             List<OrderItem> OrderItem = new List<OrderItem>();
             if (OldOrder != null)
