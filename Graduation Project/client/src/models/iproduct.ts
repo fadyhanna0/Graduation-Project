@@ -3,6 +3,6 @@ export interface IProduct {
   name: string;
   price: number;
   description: string;
-  mage?: string;
+  image?: string;
   category_Id: number;
 }

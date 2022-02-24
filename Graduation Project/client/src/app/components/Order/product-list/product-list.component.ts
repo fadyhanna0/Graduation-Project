@@ -9,7 +9,6 @@ import { IProduct } from 'src/models/iproduct';
   styleUrls: ['./product-list.component.scss'],
 })
 export class ProductListComponent implements OnInit, OnChanges {
-  img: string = 'https://picsum.photos/368/300';
   preoductListOfCat: IProduct[] = [];
   constructor(
     private productservice: ProductsService,
@@ -19,7 +18,7 @@ export class ProductListComponent implements OnInit, OnChanges {
   ngOnInit(): void {
     this.productservice.getAllProducts().subscribe((products) => {
       this.preoductListOfCat = products;
-      //console.log(this.preoductListOfCat);
+      console.log(this.preoductListOfCat);
     });
   }
   ngOnChanges(): void {

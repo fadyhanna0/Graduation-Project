@@ -40,30 +40,46 @@ export class ProductsService {
     return throwError(() => new Error('Error occured, please try again'));
   }
   getAllProducts(): Observable<IProduct[]> {
-    // return this.httpClient.get<IProduct[]>(`${environment.APIURL}/products`);
     return this.httpClient
       .get<IProduct[]>(`${environment.APIURL}/Product`)
       .pipe(retry(2), catchError(this.handleError));
   }
   getProductByID(proID: number): Observable<IProduct> {
     return this.httpClient
-      .get<IProduct>(`${environment.APIURL}/products/${proID}`)
+      .get<IProduct>(`${environment.APIURL}/Product/${proID}`)
       .pipe(retry(2), catchError(this.handleError));
   }
   getProductByCatID(catID: number): Observable<IProduct[]> {
     return this.httpClient
-      .get<IProduct[]>(`${environment.APIURL}/products?CategoryID${catID}`)
+      .get<IProduct[]>(`${environment.APIURL}/Product?CategoryID${catID}`)
       .pipe(retry(2), catchError(this.handleError));
   }
   addProduct(newprod: IProduct): Observable<IProduct> {
     return this.httpClient
       .post<IProduct>(
-        `${environment.APIURL}/products`,
-        JSON.stringify('newProd'),
+        `${environment.APIURL}/Product`,
+        JSON.stringify(newprod),
         this.httpOption
       )
       .pipe(retry(2), catchError(this.handleError));
   }
-  updateProduct(prodID: number, updateProduct: IProduct) {}
-  deleteProduct(prodID: number) {}
+
+  updateProduct(proid: number, updateProduct: IProduct): Observable<IProduct> {
+    return this.httpClient
+      .put<IProduct>(
+        `${environment.APIURL}/Product/${proid}`,
+        JSON.stringify(updateProduct),
+        this.httpOption
+      )
+      .pipe(retry(2), catchError(this.handleError));
+  }
+
+  deleteProduct(proid: number) {
+    return this.httpClient
+      .delete<IProduct>(
+        `${environment.APIURL}/Product/${proid}`,
+        this.httpOption
+      )
+      .pipe(retry(1), catchError(this.handleError));
+  }
 }
