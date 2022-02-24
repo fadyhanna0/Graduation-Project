@@ -25,7 +25,6 @@ const routes: Routes = [
     component: MainLayoutComponent,
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', component: HomeComponent },
       { path: 'products', component: ProductListComponent },
       { path: 'products/:pid', component: ProductDetailsComponent },
       { path: 'contacts', component: ContactsComponent },
@@ -33,6 +32,7 @@ const routes: Routes = [
       { path: 'product/add', component: AddProductComponent },
     ],
   },
+  { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'resetpass', component: ResetPasswordComponent },
