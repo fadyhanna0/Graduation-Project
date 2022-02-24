@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj": {}
+    "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj": {
+    "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
+        "projectUniqueName": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
         "projectName": "Graduation_Project.core",
-        "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
-        "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\obj\\",
+        "projectPath": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
+        "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
+        "outputPath": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

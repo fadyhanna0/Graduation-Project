@@ -5,50 +5,60 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CoreModule } from './core/core.module';
-import { ShopModule } from './shop/shop.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainLayoutComponent } from './components/main-layout/main-layout.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-import { OrderComponent } from './components/order/order.component';
-import { SideBareComponent } from './components/side-bare/side-bare.component';
-import { UsersComponent } from './components/loginAndRigister/users/users.component';
 import { HomeComponent } from './components/home/home.component';
+
+import { RegisterComponent } from './components/Login-Register/register/register.component';
+import { OrderMasterComponent } from './components/Order/order-master/order-master.component';
+
 import { ProductListComponent } from './components/Order/product-list/product-list.component';
-import { OrderMasterComponent } from './components/Order/OrderMaster/order-master/order-master.component';
-import { ProductDetailsComponent } from './components/Order/productDetails/product-details/product-details.component';
-import { ProdutDetailsComponent } from './components/Order/produt-details/produt-details.component';
-import { LoginComponent } from './components/loginAndRigister/login/login.component';
-import { RegisterComponent } from './components/loginAndRigister/register/register.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { ProductsDirecrtivesDirective } from './Directives/products-direcrtives.directive';
+import { CurrencyPipe } from './Pipes/currency.pipe';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { ResetPasswordComponent } from './components/Login-Register/reset-password/reset-password.component';
+import { LoginComponent } from './components/Login-Register/login/login.component';
+import { AddProductComponent } from './components/add-product/add-product.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
+    LoginComponent,
     AppComponent,
     FooterComponent,
     MainLayoutComponent,
     NotFoundComponent,
-    OrderComponent,
-    SideBareComponent,
-    UsersComponent,
     HomeComponent,
-    DirectivesDirective,
-    ProductListComponent,
-    OrderMasterComponent,
-    ProductDetailsComponent,
-    ProdutDetailsComponent,
-    LoginComponent,
     RegisterComponent,
+    OrderMasterComponent,
+    ResetPasswordComponent,
+    ProductListComponent,
+    SideBarComponent,
+    ProductsDirecrtivesDirective,
+    CurrencyPipe,
+    NavBarComponent,
+    AddProductComponent,
+
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    //import core module which nav-bar lives in
-    CoreModule,
-    //import shop module which products lives in
-    ShopModule,
+    FormsModule,
+    CarouselModule.forRoot()
   ],
+  exports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    CarouselModule
+    ],
   providers: [],
   bootstrap: [AppComponent],
 })

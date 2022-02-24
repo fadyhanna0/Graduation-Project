@@ -7541,19 +7541,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Infotech\\.nuget\\packages\\": {}
+    "C:\\Users\\abdal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation Project\\GraduationProject.Api.csproj",
+      "projectUniqueName": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation Project\\GraduationProject.Api.csproj",
       "projectName": "GraduationProject.Api",
-      "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation Project\\GraduationProject.Api.csproj",
-      "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation Project\\obj\\",
+      "projectPath": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation Project\\GraduationProject.Api.csproj",
+      "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
+      "outputPath": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7567,8 +7567,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj": {
-              "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj"
+            "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj": {
+              "projectPath": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj"
             }
           }
         }
@@ -7630,6 +7630,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IProduct } from '../shared/models/product';
-import { ShopService } from './shop.service';
+import { ICategory } from 'src/models/icategory';
+import { CategoriesService } from '../Services/categories.service';
 
 @Component({
   selector: 'app-shop',
@@ -8,16 +8,13 @@ import { ShopService } from './shop.service';
   styleUrls: ['./shop.component.scss'],
 })
 export class ShopComponent implements OnInit {
-  products: IProduct[] = [];
-
-  constructor(private ShopService:ShopService) {}
+  catlist: ICategory[] = [];
+  constructor(private catServicee: CategoriesService) {}
 
   ngOnInit(): void {
-    this.ShopService.getProducts().subscribe(response =>{
-      this.products = response.data;
-    }, error=>{
-      console.log(error);
-      
-    })
+    this.catServicee.getAllCat().subscribe((category) => {
+      this.catlist = category;
+      console.log(category);
+    });
   }
 }
