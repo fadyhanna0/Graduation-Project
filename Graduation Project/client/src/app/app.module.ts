@@ -22,6 +22,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ResetPasswordComponent } from './components/Login-Register/reset-password/reset-password.component';
 import { LoginComponent } from './components/Login-Register/login/login.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,6 @@ import { LoginComponent } from './components/Login-Register/login/login.componen
     MainLayoutComponent,
     NotFoundComponent,
     HomeComponent,
-
     RegisterComponent,
     OrderMasterComponent,
     ResetPasswordComponent,
@@ -40,6 +40,7 @@ import { LoginComponent } from './components/Login-Register/login/login.componen
     ProductsDirecrtivesDirective,
     CurrencyPipe,
     NavBarComponent,
+
   ],
   imports: [
     CommonModule,
@@ -48,8 +49,14 @@ import { LoginComponent } from './components/Login-Register/login/login.componen
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
+    CarouselModule.forRoot()
   ],
-  exports: [CommonModule, FormsModule, ReactiveFormsModule],
+  exports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    CarouselModule
+    ],
   providers: [],
   bootstrap: [AppComponent],
 })
