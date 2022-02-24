@@ -1022,19 +1022,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abdal\\.nuget\\packages\\": {}
+    "C:\\Users\\Ahmed Khalil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
+      "projectUniqueName": "E:\\Programming\\7.Repos\\ITI(3M)\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
       "projectName": "Graduation_Project.core",
-      "projectPath": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
-      "packagesPath": "C:\\Users\\abdal\\.nuget\\packages\\",
-      "outputPath": "D:\\iti .net\\GraduationProject\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\obj\\",
+      "projectPath": "E:\\Programming\\7.Repos\\ITI(3M)\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
+      "packagesPath": "C:\\Users\\Ahmed Khalil\\.nuget\\packages\\",
+      "outputPath": "E:\\Programming\\7.Repos\\ITI(3M)\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ahmed Khalil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1088,7 +1088,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

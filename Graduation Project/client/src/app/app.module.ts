@@ -20,7 +20,7 @@ import { CurrencyPipe } from './Pipes/currency.pipe';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-
+import { ResetPasswordComponent } from './components/Login-Register/reset-password/reset-password.component';
 import { LoginComponent } from './components/Login-Register/login/login.component';
 
 @NgModule({
@@ -34,7 +34,7 @@ import { LoginComponent } from './components/Login-Register/login/login.componen
 
     RegisterComponent,
     OrderMasterComponent,
-
+    ResetPasswordComponent,
     ProductListComponent,
     SideBarComponent,
     ProductsDirecrtivesDirective,
