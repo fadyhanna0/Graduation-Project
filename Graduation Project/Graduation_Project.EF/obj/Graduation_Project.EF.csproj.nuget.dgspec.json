@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj": {}
+    "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj": {
+    "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
+        "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
         "projectName": "Graduation_Project.core",
-        "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
+        "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj",
         "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\obj\\",
+        "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj": {
+    "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj",
+        "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj",
         "projectName": "Graduation_Project.EF",
-        "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj",
+        "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj",
         "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\obj\\",
+        "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj": {
-                "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj"
+              "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj": {
+                "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.core\\Graduation_Project.core.csproj"
               }
             }
           }

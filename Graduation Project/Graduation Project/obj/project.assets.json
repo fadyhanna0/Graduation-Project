@@ -7546,11 +7546,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation Project\\GraduationProject.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation Project\\GraduationProject.Api.csproj",
       "projectName": "GraduationProject.Api",
-      "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation Project\\GraduationProject.Api.csproj",
+      "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation Project\\GraduationProject.Api.csproj",
       "packagesPath": "C:\\Users\\Infotech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation Project\\obj\\",
+      "outputPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Infotech\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7567,8 +7567,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj": {
-              "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\GraduatiojnProject2022\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj"
+            "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj": {
+              "projectPath": "C:\\Users\\Infotech\\Documents\\GitHub\\Graduation-Project\\Graduation Project\\Graduation_Project.EF\\Graduation_Project.EF.csproj"
             }
           }
         }
