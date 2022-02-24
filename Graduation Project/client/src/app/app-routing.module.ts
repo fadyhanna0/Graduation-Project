@@ -14,6 +14,7 @@ import { ProductListComponent } from './components/Order/product-list/product-li
 import { ProductDetailsComponent } from './components/Order/product-details/product-details.component';
 import { MainLayoutComponent } from './components/main-layout/main-layout.component';
 import { ResetPasswordComponent } from './components/Login-Register/reset-password/reset-password.component';
+import { AddProductComponent } from './components/add-product/add-product.component';
 // import { LoginComponent } from './components/loginAndRigister/login/login.component';
 // import { RegisterComponent } from './components/loginAndRigister/register/register.component';
 // import { ProductListComponent } from './components/Order/product-list/product-list.component';
@@ -26,9 +27,10 @@ const routes: Routes = [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
       { path: 'products', component: ProductListComponent },
-      { path: 'product/:pid', component: ProductDetailsComponent },
+      { path: 'products/:pid', component: ProductDetailsComponent },
       { path: 'contacts', component: ContactsComponent },
       { path: 'shop', component: ShopComponent },
+      { path: 'product/add', component: AddProductComponent },
     ],
   },
   { path: 'login', component: LoginComponent },

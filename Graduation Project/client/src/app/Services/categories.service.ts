@@ -1,13 +1,13 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, Observable, retry, throwError } from 'rxjs';
+import { Observable, catchError, retry, throwError } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { iCustomer } from 'src/models/icustomer';
+import { ICategory } from 'src/models/icategory';
 
 @Injectable({
   providedIn: 'root',
 })
-export class CustomerServiceService {
+export class CategoriesService {
   httpOption;
   constructor(private httpClient: HttpClient) {
     this.httpOption = {
@@ -18,19 +18,20 @@ export class CustomerServiceService {
     };
   }
 
-  getAll(): Observable<iCustomer[]> {
-    return this.httpClient.get<iCustomer[]>(`${environment.APIURL}/customer`);
+  getAllCat(): Observable<ICategory[]> {
+    // return this.httpClient.get<IProduct[]>(`${environment.APIURL}/products`);
+    return this.httpClient.get<ICategory[]>(`${environment.APIURL}/categories`);
   }
-  getByID(cID: number): Observable<iCustomer> {
-    return this.httpClient.get<iCustomer>(
-      `${environment.APIURL}/customer/${cID}`
+  getCatByID(proID: number): Observable<ICategory> {
+    return this.httpClient.get<ICategory>(
+      `${environment.APIURL}/categories/${proID}`
     );
   }
 
-  addProduct(newprod: iCustomer): Observable<iCustomer> {
+  addProduct(newprod: ICategory): Observable<ICategory> {
     return this.httpClient
-      .post<iCustomer>(
-        `${environment.APIURL}/customer`,
+      .post<ICategory>(
+        `${environment.APIURL}/categories`,
         JSON.stringify('newcat'),
         this.httpOption
       )
@@ -42,6 +43,6 @@ export class CustomerServiceService {
         })
       );
   }
-  updateProduct(prodID: number, updateProduct: iCustomer) {}
+  updateProduct(prodID: number, updateProduct: ICategory) {}
   deleteProduct(prodID: number) {}
 }

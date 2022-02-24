@@ -22,6 +22,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ResetPasswordComponent } from './components/Login-Register/reset-password/reset-password.component';
 import { LoginComponent } from './components/Login-Register/login/login.component';
+import { AddProductComponent } from './components/add-product/add-product.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { LoginComponent } from './components/Login-Register/login/login.componen
     ProductsDirecrtivesDirective,
     CurrencyPipe,
     NavBarComponent,
+    AddProductComponent,
   ],
   imports: [
     CommonModule,
