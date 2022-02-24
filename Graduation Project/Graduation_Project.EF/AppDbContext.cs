@@ -19,7 +19,6 @@ namespace Graduation_Project.EF
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Payment> Payments { get; set; }
-        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
 
 

@@ -37,7 +37,11 @@ namespace Graduation_Project.EF
         {
             _Context = Context;
              Products = new BaseRebository<Products>(_Context);
-             AuthModel = new AuhorizeService(_Context, userManager, roleManager,jwt);
+            Category = new BaseRebository<Category>(_Context);
+            Order = new BaseRebository<Order>(_Context);
+            OrderItem = new BaseRebository<OrderItem>(_Context);
+            Payment = new BaseRebository<Payment>(_Context);
+            AuthModel = new AuhorizeService(_Context, userManager, roleManager,jwt);
            
         }
 
