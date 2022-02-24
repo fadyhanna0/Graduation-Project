@@ -13,6 +13,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ProductListComponent } from './components/Order/product-list/product-list.component';
 import { ProductDetailsComponent } from './components/Order/product-details/product-details.component';
 import { MainLayoutComponent } from './components/main-layout/main-layout.component';
+import { ResetPasswordComponent } from './components/Login-Register/reset-password/reset-password.component';
 // import { LoginComponent } from './components/loginAndRigister/login/login.component';
 // import { RegisterComponent } from './components/loginAndRigister/register/register.component';
 // import { ProductListComponent } from './components/Order/product-list/product-list.component';
@@ -32,7 +33,7 @@ const routes: Routes = [
   },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  // { path: 'resetpass', component: ResetPasswordComponent },
+  { path: 'resetpass', component: ResetPasswordComponent },
   { path: '**', component: NotFoundComponent },
   // { path: 'Login', component: LoginComponent },
   // { path: 'Rigester', component: RegisterComponent },
