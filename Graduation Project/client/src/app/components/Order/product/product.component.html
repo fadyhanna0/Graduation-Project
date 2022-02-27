@@ -1,0 +1,16 @@
+<div class="col-md-6 col-sm-12 col-lg-4">
+    <div class="card" style="width: 20rem;margin-right:40px !important;margin-bottom:40px ; border-radius:20px 20px 0px 0px; background-color:rgb(240, 245, 245)">
+        <img class="card-img-fluid" src="../../../../assets/bed/image/{{product.image}}" alt="{{product.name}}" style="height: 10rem;width:12rem; margin:auto;margin-top:20px;">
+        <div class="card-body" style="background-color:rgb(34, 40, 49);border-radius:0px 0px 20px 20px">
+            <h5 class="card-title" style="color:white">{{product.name}}</h5>
+            <p class="card-text" style="color:white" >{{product.description}}</p>
+
+            <h3 class="card-text" style="color:white;display:inline-block" > <span class="a-price-symbol">{{product.price}} $</span></h3>
+            
+            <form method="post">
+                <input type="submit" value="Add to Cart" class="btn btn-primary"/>
+                <input type="number" style="width:70px; margin-left:70px; border-radius:10px"  min=1 name="quantity" value=1 >
+            </form>
+        </div>    
+    </div>    
+</div>    

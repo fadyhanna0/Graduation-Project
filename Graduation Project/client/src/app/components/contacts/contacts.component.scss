@@ -1,0 +1,177 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.contact {
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(/pexels-huseyn-kamaladdin-667838.jpg);
+	background-size: cover;
+	.content {
+		max-width: 800px;
+		text-align: center;
+		h2 {
+			font-size: 36px;
+			margin-left: 30px;
+			text-shadow: 0px 0px 10px #021b49;
+			font-weight: 900px;
+			color: #089afc;
+		}
+		p {
+			font-weight: 300px;
+			color: #fff;
+		}
+	}
+}
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	.contactinfo {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		.box {
+			position: relative;
+			padding: 20px 0;
+			display: flex;
+			.icon {
+				min-width: 60px;
+				height: 60px;
+				background: #fff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 50%;
+				font-size: 30px;
+				cursor: pointer;
+			}
+			.text {
+				display: flex;
+				margin-left: 20px;
+				font-size: 16px;
+				color: #fff;
+				flex-direction: column;
+				font-weight: 300;
+				h3 {
+					font-weight: 500px;
+					color: #00bcd4;
+				}
+			}
+		}
+	}
+}
+.contactForm {
+	width: 40%;
+	padding: 40px;
+	background: rgba(255, 255, 255, 0.664);
+	h2 {
+		font-size: 40px;
+		color: #333;
+		font-weight: 600;
+	}
+	.inputBox {
+		position: relative;
+		width: 100%;
+		margin-top: 10px;
+		input {
+			width: 100%;
+			padding: 5px 0px;
+			font-size: 16px;
+			margin: 5px 0;
+			border: none;
+			border-bottom: 2px solid #333;
+			outline: none;
+			resize: none;
+			background: rgba(255, 255, 255, 0);
+			&:focus {
+				~span {
+					color: #e91e63;
+					font-size: 12px;
+					transform: translateY(-20px );
+				}
+			}
+			&:valid {
+				~span {
+					color: #e91e63;
+					font-size: 12px;
+					transform: translateY(-20px );
+				}
+			}
+		}
+		textarea {
+			width: 100%;
+			padding: 5px 0px;
+			font-size: 16px;
+			margin: 5px 0;
+			border: none;
+			border-bottom: 2px solid #333;
+			outline: none;
+			resize: none;
+			background: rgba(255, 255, 255, 0);
+			&:focus {
+				~span {
+					color: #e91e63;
+					font-size: 12px;
+					transform: translateY(-20px );
+				}
+			}
+			&:valid {
+				~span {
+					color: #e91e63;
+					font-size: 12px;
+					transform: translateY(-20px );
+				}
+			}
+		}
+		span {
+			position: absolute;
+			left: 0;
+			padding: 5px 0px;
+			font-size: 16px;
+			margin: 5px 0px;
+			pointer-events: none;
+			transition: 0.5s;
+			color: #666;
+		}
+		input[type="submit"] {
+			width: 100px;
+			background: #00bcd4;
+			color: #fff;
+			border: none;
+			padding: 10px;
+			font-size: 18px;
+			&:hover {
+				background: #fff;
+				color: #00bcd4;
+			}
+		}
+	}
+}
+@media (max-width:991px) {
+	.contact {
+		padding: 50px;
+		.contactinfo {
+			margin-left: -50px;
+		}
+	}
+	.container {
+		flex-direction: column;
+		.contactinfo {
+			width: 100%;
+		}
+		.contactForm {
+			margin-top: 20px;
+			width: 80%;
+		}
+	}
+}

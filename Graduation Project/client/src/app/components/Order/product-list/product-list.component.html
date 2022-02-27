@@ -1,1 +1,10 @@
-*ngFor="let item of preoductListOfCat;
+<div class="container">
+  <div class="row">
+    <div class="col d-flex justify-content-center align-content-center">
+      <app-product
+        *ngFor="let item of preoductListOfCat"
+        [product]="item"
+      ></app-product>
+    </div>
+  </div>
+</div>

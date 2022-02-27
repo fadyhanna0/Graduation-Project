@@ -1,15 +1,15 @@
-<div class="container" style="max-width: 500px">
+<!-- <div class="container" style="max-width: 500px">
   <h3 class="mb-3 mt-5 text-center">Add product</h3>
   <div class="form-group">
     <input
       type="text"
-      [(ngModel)]="proObj.id"
+      [(ngModel)]="productlistofcat.id"
       class="form-control"
       placeholder="id"
     />
     <input
       type="text"
-      [(ngModel)]="proObj.name"
+      [(ngModel)]="productlistofcat.name"
       class="form-control"
       placeholder="name"
     />
@@ -17,7 +17,7 @@
   <div class="form-group">
     <input
       type="text"
-      [(ngModel)]="proObj.price"
+      [(ngModel)]="productlistofcat.price"
       class="form-control"
       placeholder="price"
     />
@@ -25,19 +25,19 @@
   <div class="form-group">
     <input
       type="text"
-      [(ngModel)]="proObj.description"
+      [(ngModel)]="productlistofcat.description"
       class="form-control"
       placeholder="description"
     />
     <input
       type="text"
-      [(ngModel)]="proObj.image"
+      [(ngModel)]="productlistofcat.image"
       class="form-control"
       placeholder="image "
     />
     <input
       type="text"
-      [(ngModel)]="proObj.category_Id"
+      [(ngModel)]="productlistofcat.category_Id"
       class="form-control"
       placeholder="category_Id "
     />
@@ -45,9 +45,83 @@
   <div class="form-group">
     <button
       class="btn btn-success btn-lg btn-block"
-      (click)="addproduct(proObj)"
+      (click)="addproduct(productlistofcat)"
     >
       Add product
     </button>
   </div>
-</div>
+</div> -->
+
+<form #prdFrm="ngForm" (ngSubmit)="addproduct()">
+  <div class="mb-3">
+    <label for="pName" class="form-label">product Name</label>
+    <input
+      #prdNameInp="ngModel"
+      type="text"
+      class="form-control"
+      id="pName"
+      name="prdname"
+      [(ngModel)]="productlistofcat.name"
+      required
+      pattern="[A-Za-z]{3,}"
+    />
+    <div
+      class="alert alert-warning"
+      [hidden]="prdNameInp.valid || prdNameInp.untouched"
+    >
+      <small *ngIf="prdNameInp.errors?.['required']"> Name is required</small>
+      <small *ngIf="prdNameInp.errors?.['pattern']">
+        Name must be 3 letters at least</small
+      >
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="pPrice" class="form-label">product Price</label>
+    <input
+      type="number"
+      class="form-control"
+      id="pPrice"
+      name="proPrice"
+      [(ngModel)]="productlistofcat.price"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="pDescription" class="form-label">product Description</label>
+    <input
+      type="text"
+      class="form-control"
+      id="pDescription"
+      name="prodDescription"
+      [(ngModel)]="productlistofcat.description"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="pImage" class="form-label">product image</label>
+    <input
+      type="file"
+      class="form-control"
+      id="pImage"
+      name="proImage"
+      [(ngModel)]="productlistofcat.image"
+    />
+    <!-- </div> -->
+  </div>
+  <div class="mb-3">
+    <label for="prdCat" class="form-label">Product Category</label>
+    <select
+      class="form-select"
+      name="cat"
+      id="prdCat"
+      name="prodCat"
+      [(ngModel)]="productlistofcat.category_Id"
+    >
+      <option *ngFor="let cat of catList" [value]="cat.id">
+        {{ cat.name }}
+      </option>
+    </select>
+  </div>
+
+  <button [disabled]="prdFrm.invalid" type="submit" class="btn btn-primary">
+    Submit
+  </button>
+</form>

@@ -1,6 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { CategoriesService } from 'src/app/Services/categories.service';
 import { ProductsService } from 'src/app/Services/products.service';
+import { ICategory } from 'src/models/icategory';
 import { IProduct } from 'src/models/iproduct';
 
 @Component({
@@ -9,37 +11,55 @@ import { IProduct } from 'src/models/iproduct';
   styleUrls: ['./add-product.component.scss'],
 })
 export class AddProductComponent implements OnInit {
-  @Input() proObj = {
-    id: 0,
-    name: '',
-    price: 0,
-    description: '',
-    image: '',
-    category_Id: 0,
-  };
-  productlistofcat: IProduct[] = [];
-  constructor(private prodService: ProductsService, public router: Router) {}
+  //catList: ICategory[];
+  productlistofcat: IProduct = {} as IProduct;
+  productlist: IProduct[] = [];
+  catservice: any;
+  catList: { id: number; name: string }[];
+  catlist(catlist: any) {
+    throw new Error('Method not implemented.');
+  }
+
+  constructor(private prodService: ProductsService, public router: Router) {
+    this.catList = [
+      { id: 1, name: 'chairs' },
+      { id: 2, name: 'tables' },
+      { id: 7, name: 'bed' },
+      { id: 8, name: 'kitchen' },
+      { id: 9, name: 'living room' },
+    ];
+  }
 
   ngOnInit(): void {
-    this.fetchProducts();
+    //this.fetchProducts();
+    this.catservice.getAllCat().subscribe((pro: (catlist: any) => void) => {
+      this.catlist = pro;
+    });
   }
 
   fetchProducts() {
     this.prodService.getAllProducts().subscribe((products) => {
-      this.productlistofcat = products;
+      this.productlist = products;
     });
   }
 
-  addproduct(data: any) {
-    this.prodService.addProduct(this.proObj).subscribe((data: {}) => {
-      this.router.navigate(['/products']);
-    });
-  }
-  delete(proid: number) {
-    if (window.confirm('Really?')) {
-      this.prodService.deleteProduct(proid).subscribe((products) => {
-        this.fetchProducts();
-      });
-    }
+  // addproduct(data: any) {
+  //   this.prodService.addProduct(this.productlistofcat).subscribe((data: {}) => {
+  //     this.router.navigate(['/product']);
+  //   });
+  // }
+
+  addproduct() {
+    const observer = {
+      next: (prd: IProduct) => {
+        alert('Product added Successfuly');
+        this.router.navigateByUrl('/products');
+      },
+      error: (err: Error) => {
+        alert(err.message);
+      },
+    };
+
+    this.prodService.addProduct(this.productlistofcat).subscribe(observer);
   }
 }

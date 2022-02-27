@@ -20,7 +20,9 @@ export class CategoriesService {
 
   getAllCat(): Observable<ICategory[]> {
     // return this.httpClient.get<IProduct[]>(`${environment.APIURL}/products`);
-    return this.httpClient.get<ICategory[]>(`${environment.APIURL}/categories`);
+    return this.httpClient.get<ICategory[]>(
+      `${environment.APIURL}/product/GellAllCategories`
+    );
   }
   getCatByID(proID: number): Observable<ICategory> {
     return this.httpClient.get<ICategory>(

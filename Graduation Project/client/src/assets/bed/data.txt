@@ -1,0 +1,90 @@
+[
+{
+    "id": 1,
+    "name": "Guernsey Bed",
+    "image": "1.jpg",
+    "Price": 1320 ,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      },
+
+{
+    "id": 2,
+    "name": "Abdiel Tufted Upholstered Low Profile Platform Bed",
+    "image": "2.jpg",
+    "Price": 1222,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      },
+{
+    "id": 3,
+    "name": "Powersville Tufted Low Profile Platform Bed",
+    "image": "3.jpg",
+    "Price": 800,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      },
+
+{
+    "id": 4,
+    "name": "Marilee Platform Bed",
+    "image": "4.jpg",
+    "Price": 1482,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      },
+
+{
+    "id": 5,
+    "name": "Chuckanut Platform Bed",
+    "image": "5.jpg",
+    "Price": 1922,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      },
+
+{
+    "id": 6,
+    "name": "Tianna Tufted Upholstered Low Profile Standard Bed",
+    "image": "6.jpg",
+    "Price": 1350,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      },
+
+{
+    "id": 7,
+    "name": "Drusilla Tufted Upholstered Low Profile Standard Bed",
+    "image": "7.jpg",
+    "Price": 1700,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      },
+
+{
+    "id": 8,
+    "name": "Hidalgo Platform Bed",
+    "image": "8.jpg",
+    "Price": 1659,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      },
+{
+    "id": 9,
+    "name": "Harlow Solid Wood Platform Bed",
+    "image": "9.jpg",
+    "Price": 1530,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      },
+{
+    "id": 10,
+    "name": "Hanley 7 Bed Frame",
+    "image": "10.jpg",
+    "Price": 2059,
+    "category":"BedRoom",
+    "sub_category":"Bed"
+      }
+
+
+    ]

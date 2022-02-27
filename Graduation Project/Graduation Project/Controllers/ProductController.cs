@@ -83,6 +83,21 @@ namespace Graduation_Project.Controllers
             _unitOfWork.Complete();
             return Ok();
         }
+        //this method return all accepted orders for admin
+        [HttpGet(template: "GellAllOrders")]
+        public IActionResult GellAllOrders()
+        {
+            List<Order> orders = _unitOfWork.Order.GetAll(x => x.Accepted == true).ToList();
+            return Ok(orders);
+        }
+        [HttpGet(template: "GellAllCategories")]
+        public IActionResult GellAllCategories()
+        {
+            List<Category> categories = _unitOfWork.Category.GetAll().ToList();
+            return Ok(categories);
+        }
+
+
 
 
     }

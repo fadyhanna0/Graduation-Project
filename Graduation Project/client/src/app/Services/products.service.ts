@@ -4,7 +4,7 @@ import {
   HttpHeaders,
 } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, Observable, retry, throwError } from 'rxjs';
+import { catchError, map, Observable, retry, throwError } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { IProduct } from 'src/models/iproduct';
 
@@ -40,46 +40,60 @@ export class ProductsService {
     return throwError(() => new Error('Error occured, please try again'));
   }
   getAllProducts(): Observable<IProduct[]> {
+    // return this.httpClient.get<IProduct[]>(`${environment.APIURL}/products`);
     return this.httpClient
       .get<IProduct[]>(`${environment.APIURL}/Product`)
       .pipe(retry(2), catchError(this.handleError));
   }
   getProductByID(proID: number): Observable<IProduct> {
     return this.httpClient
-      .get<IProduct>(`${environment.APIURL}/Product/${proID}`)
+      .get<IProduct>(`${environment.APIURL}/products/${proID}`)
       .pipe(retry(2), catchError(this.handleError));
   }
   getProductByCatID(catID: number): Observable<IProduct[]> {
     return this.httpClient
-      .get<IProduct[]>(`${environment.APIURL}/Product?CategoryID${catID}`)
+      .get<IProduct[]>(`${environment.APIURL}/products?CategoryID${catID}`)
       .pipe(retry(2), catchError(this.handleError));
   }
   addProduct(newprod: IProduct): Observable<IProduct> {
     return this.httpClient
       .post<IProduct>(
-        `${environment.APIURL}/Product`,
+        `${environment.APIURL}/product`,
         JSON.stringify(newprod),
         this.httpOption
       )
       .pipe(retry(2), catchError(this.handleError));
   }
 
-  updateProduct(proid: number, updateProduct: IProduct): Observable<IProduct> {
+  deleteProduct(prodID: number): Observable<IProduct> {
     return this.httpClient
-      .put<IProduct>(
-        `${environment.APIURL}/Product/${proid}`,
-        JSON.stringify(updateProduct),
+      .delete<IProduct>(
+        `${environment.APIURL}/product?id=${prodID}`,
         this.httpOption
       )
       .pipe(retry(2), catchError(this.handleError));
   }
+  getProductupdate(prodID: number): Observable<IProduct> {
+    return this.httpClient.get<IProduct>(
+      `${environment.APIURL}/product/editproducts/${prodID}`,
+      this.httpOption
+    );
+  }
 
-  deleteProduct(proid: number) {
+  updateProduct(
+    prodID: IProduct,
+    updaatedprod: IProduct
+  ): Observable<IProduct> {
     return this.httpClient
-      .delete<IProduct>(
-        `${environment.APIURL}/Product/${proid}`,
+      .put<IProduct>(
+        `${environment.APIURL}/product/${prodID.id}`,
+        JSON.stringify(updaatedprod),
         this.httpOption
       )
-      .pipe(retry(1), catchError(this.handleError));
+      .pipe(
+        map(() => prodID),
+        retry(2),
+        catchError(this.handleError)
+      );
   }
 }

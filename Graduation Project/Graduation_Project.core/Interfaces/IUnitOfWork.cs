@@ -14,6 +14,8 @@ namespace Graduation_Project.core.Interfaces
         public IBaseRepository<Order> Order { get; }
         public IBaseRepository<OrderItem> OrderItem { get;  }
         public IBaseRepository<Payment> Payment { get; }
+        public IBaseRepository<ApplicationUser> AppUser { get; }
+
 
 
         public IAuthorizeService AuthModel { get; }

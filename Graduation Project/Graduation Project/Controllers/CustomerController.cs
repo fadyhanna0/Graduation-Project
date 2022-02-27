@@ -11,6 +11,7 @@ namespace Graduation_Project.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CustomerController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -20,7 +21,6 @@ namespace Graduation_Project.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        [Authorize]
         [HttpPost]
         public IActionResult AddInBasket(int id, int quantity)
         {
@@ -57,7 +57,6 @@ namespace Graduation_Project.Controllers
         {
             var CustomerId = User.Claims.FirstOrDefault(x=>x.Type.Equals("uid"));
             decimal TotalPrice = 0;
-         // //  string CustomerId = "98d6bb72-10e7-490a-bad7-ba537f8f034f"/*Request.Cookies["CustomerId"].ToString();*/;
             var OldOrder = _unitOfWork.Order.Find(s => s.Customer_Id == CustomerId.Value.ToString() && s.Accepted == false);
             List<OrderItem> OrderItem = new List<OrderItem>();
             if (OldOrder != null)
@@ -84,8 +83,17 @@ namespace Graduation_Project.Controllers
             _unitOfWork.Complete();
             return Ok(orderItem);
         }
+        [HttpPost(template: "ConfirmOrdr")]
+        public IActionResult ConfirmOrdr(int OrderId)
+        {
+            Order order = _unitOfWork.Order.GetById(OrderId);
+            order.Accepted = true;
+            _unitOfWork.Complete();
+            return Ok();
+        }
+
 
 
     }
 }
-/////////////
+

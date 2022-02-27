@@ -22,6 +22,8 @@ namespace Graduation_Project.EF
         public IBaseRepository<Order> Order { get; private set; }
         public IBaseRepository<OrderItem> OrderItem { get; private set; }
         public IBaseRepository<Payment> Payment { get; private set; }
+        public IBaseRepository<ApplicationUser> AppUser { get; private set; }
+
 
 
 
@@ -41,6 +43,7 @@ namespace Graduation_Project.EF
             Order = new BaseRebository<Order>(_Context);
             OrderItem = new BaseRebository<OrderItem>(_Context);
             Payment = new BaseRebository<Payment>(_Context);
+            AppUser = new BaseRebository<ApplicationUser>(_Context);
             AuthModel = new AuhorizeService(_Context, userManager, roleManager,jwt);
            
         }

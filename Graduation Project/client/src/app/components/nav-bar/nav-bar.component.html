@@ -1,83 +1,93 @@
-<!-- <div
-  class="d-flex flex-column flex-md-row align-items-center justify-content-between pb-3 mb-4 border-bottom container-fluid fixed-top bg-white"
->
-  <h3>Store</h3>
-
-  <nav class="d-flex py-2 text-uppercase" style="font-size: larger">
-    <a class="mx-3 py-2 text-dark text-decoration-none" routerLink="/home"
-      >Home</a
-    >
-    <a
-      class="mx-3 py-2 text-dark text-decoration-none"
-      routerLink="/products"
-      routerLinkActive="active"
-      >Products</a
-    >
-    <a
-      class="mx-3 py-2 text-dark text-decoration-none"
-      routerLink="/shop"
-      routerLinkActive="active"
-      >Shop</a
-    >
-    <a
-      class="mx-3 py-2 text-dark text-decoration-none"
-      routerLink="contacts"
-      routerLinkActive="active"
-      >Contact</a
-    >
-  </nav>
-
-  <div class="d-flex align-items-center">
-    <a class="position-relative mx-5">
-      <i class="fa fa-shopping-cart fa-2x mr-5 text-dark"></i>
-      <div class="cart-no">5</div>
-    </a>
-    <a
-      class="mx-3 py-2 btn btn-outline-secondary mr-2"
-      routerLink="login"
-      routerLinkActive="active"
-      >Logn in</a
-    >
-    <a
-      class="mx-3 py-2 btn btn-outline-secondary mr-3"
-      routerLink="register"
-      routerLinkActive="active"
-      >Register</a
-    >
-  </div>
-</div> -->
-
-
-<nav class="navbar navbar-expand-lg navbar-light bg-secondary text-uppercase fixed-top" 
-style="font-size: larger;">
-
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
   <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">store</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarColor02"
+      aria-controls="navbarColor02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarTogglerDemo01">
-      <div class="col-3 d-flex justify-content-center">
-        <a class="navbar-brand" href="#">Store</a>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a class="nav-link active text-decoration-none" routerLink="/home"
+            >Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-decoration-none"
+            routerLink="/products"
+            routerLinkActive="active"
+            >Products</a
+          >
+        </li>
 
-      <div class="col-5 ">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around align-items-center">
+        <li class="nav-item">
+          <a
+            class="nav-link text-decoration-none"
+            routerLink="/addproduct"
+            routerLinkActive="active"
+            >Add Product</a
+          >
+        </li>
 
-          <a class=" text-dark text-decoration-none" routerLink="/home">Home</a>
-          <a class=" text-dark text-decoration-none" routerLink="/products"
-          routerLinkActive="active" >Products</a>
-          <a class=" text-dark text-decoration-none" routerLink="/shop" routerLinkActive="active">Shop</a>
-
-          <a class=" text-dark text-decoration-none" routerLink="contacts" routerLinkActive="active">Contact</a>
-        </ul>
-      </div>
-      
-      <div class="col-2 d-flex justify-content-between align-items-center">
-
-        <a class="mx-2 py-2 btn btn-primary mr-2" routerLink="login" routerLinkActive="active">Logn in</a>
-        <a class="mx-2 py-2 btn btn-success" routerLink="register" routerLinkActive="active">Register</a>
-      </div>
+        <li class="nav-item">
+          <a
+            class="nav-link text-decoration-none"
+            routerLink="/contacts"
+            routerLinkActive="active"
+            >Contact</a
+          >
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Dropdown</a
+          >
+          <div class="dropdown-menu">
+            <a class="dropdown-item" routerLink="/dashboard">dashboard</a>
+            <a class="dropdown-item">Another action</a>
+            <a class="dropdown-item">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item">Separated link</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input
+          class="form-control me-sm-2"
+          type="text"
+          placeholder="Search"
+          style="width: 250px"
+        />
+        <button
+          class="btn btn-secondary my-2 my-sm-0 mx-2"
+          routerLink="login"
+          routerLinkActive="active"
+        >
+          Logn in
+        </button>
+        <button
+          class="btn btn-secondary my-2 my-sm-0"
+          routerLink="register"
+          routerLinkActive="active"
+        >
+          Register
+        </button>
+      </form>
     </div>
   </div>
 </nav>

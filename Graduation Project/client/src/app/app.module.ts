@@ -24,6 +24,9 @@ import { ResetPasswordComponent } from './components/Login-Register/reset-passwo
 import { LoginComponent } from './components/Login-Register/login/login.component';
 import { AddProductComponent } from './components/add-product/add-product.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { UpdateComponent } from './components/update/update.component';
+import { ProductComponent } from './components/Order/product/product.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +45,10 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     CurrencyPipe,
     NavBarComponent,
     AddProductComponent,
+    DashboardComponent,
+    UpdateComponent,
+    ProductComponent,
+ 
 
   ],
   imports: [
@@ -51,14 +58,9 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
   ],
-  exports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    CarouselModule
-    ],
+  exports: [CommonModule, FormsModule, ReactiveFormsModule, CarouselModule],
   providers: [],
   bootstrap: [AppComponent],
 })

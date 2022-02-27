@@ -10,18 +10,7 @@ E:\ITI\Graduation Project\Graduation Project\Graduation_Project.core\obj\Debug\n
 E:\ITI\Graduation Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.dll
 E:\ITI\Graduation Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\ref\Graduation_Project.core.dll
 E:\ITI\Graduation Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.pdb
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.deps.json
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.dll
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\ref\Graduation_Project.core.dll
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.pdb
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.csproj.AssemblyReference.cache
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.GeneratedMSBuildEditorConfig.editorconfig
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.AssemblyInfoInputs.cache
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.AssemblyInfo.cs
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.csproj.CoreCompileInputs.cache
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.dll
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\ref\Graduation_Project.core.dll
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.pdb
+<<<<<<< HEAD
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.deps.json
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.dll
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\ref\Graduation_Project.core.dll
@@ -34,3 +23,29 @@ C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Gra
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.dll
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\ref\Graduation_Project.core.dll
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.pdb
+=======
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.deps.json
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.dll
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\ref\Graduation_Project.core.dll
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.pdb
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.csproj.AssemblyReference.cache
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.AssemblyInfoInputs.cache
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.AssemblyInfo.cs
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.csproj.CoreCompileInputs.cache
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.dll
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\ref\Graduation_Project.core.dll
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.pdb
+>>>>>>> 1169530d0a31c4ba38023b32195a0518ed28f875
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.deps.json
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.dll
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\ref\Graduation_Project.core.dll
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\bin\Debug\net5.0\Graduation_Project.core.pdb
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.csproj.AssemblyReference.cache
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.AssemblyInfoInputs.cache
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.AssemblyInfo.cs
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.csproj.CoreCompileInputs.cache
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.dll
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\ref\Graduation_Project.core.dll
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.core\obj\Debug\net5.0\Graduation_Project.core.pdb

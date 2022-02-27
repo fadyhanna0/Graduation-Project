@@ -16,24 +16,7 @@ E:\ITI\Graduation Project\Graduation Project\Graduation_Project.EF\obj\Debug\net
 E:\ITI\Graduation Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\ref\Graduation_Project.EF.dll
 E:\ITI\Graduation Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.pdb
 E:\ITI\Graduation Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.genruntimeconfig.cache
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.deps.json
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.json
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.dev.json
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.dll
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\ref\Graduation_Project.EF.dll
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.pdb
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.core.dll
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.core.pdb
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.AssemblyReference.cache
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.GeneratedMSBuildEditorConfig.editorconfig
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.AssemblyInfoInputs.cache
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.AssemblyInfo.cs
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.CoreCompileInputs.cache
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.CopyComplete
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.dll
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\ref\Graduation_Project.EF.dll
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.pdb
-D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.deps.json
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.json
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.dev.json
@@ -52,3 +35,41 @@ C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Gra
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\ref\Graduation_Project.EF.dll
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.pdb
 C:\Users\Infotech\Documents\GitHub\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.genruntimeconfig.cache
+=======
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.deps.json
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.json
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.dev.json
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.dll
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\ref\Graduation_Project.EF.dll
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.pdb
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.core.dll
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.core.pdb
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.AssemblyReference.cache
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.AssemblyInfoInputs.cache
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.AssemblyInfo.cs
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.CoreCompileInputs.cache
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.CopyComplete
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.dll
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\ref\Graduation_Project.EF.dll
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.pdb
+D:\iti .net\GraduationProject\GraduatiojnProject2022\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.genruntimeconfig.cache
+>>>>>>> 1169530d0a31c4ba38023b32195a0518ed28f875
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.deps.json
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.json
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.runtimeconfig.dev.json
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.dll
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\ref\Graduation_Project.EF.dll
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.EF.pdb
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.core.dll
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\bin\Debug\net5.0\Graduation_Project.core.pdb
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.AssemblyReference.cache
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.AssemblyInfoInputs.cache
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.AssemblyInfo.cs
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.CoreCompileInputs.cache
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.csproj.CopyComplete
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.dll
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\ref\Graduation_Project.EF.dll
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.pdb
+D:\iti .net\New folder (2)\Graduation-Project\Graduation Project\Graduation_Project.EF\obj\Debug\net5.0\Graduation_Project.EF.genruntimeconfig.cache
